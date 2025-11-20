@@ -1,0 +1,67 @@
+{
+    "topic": "which among bangalore, delhi, chennai, mumbai is the capital city of russia",
+    "research_notes": "{\n  \"answer\": [\n    \"None of the cities listed \u2013 Bangalore, Delhi, Chennai, or Mumbai \u2013 is the capital city of Russia.\",\n    \"All four cities (Bangalore, Delhi, Chennai, Mumbai) are major metropolitan areas located within India.\",\n    \"Bangalore is the capital of the Indian state of Karnataka.\",\n    \"Delhi (specifically New Delhi) is the capital city of India.\",\n    \"Chennai is the capital of the Indian state of Tamil Nadu.\",\n    \"The actual capital city of Russia is Moscow.\"\n  ]\n}",
+    "mcqs": [
+        {
+            "question": "What is the capital city of Russia?",
+            "options": [
+                "A. Bangalore",
+                "B. Delhi",
+                "C. Moscow",
+                "D. Chennai"
+            ],
+            "answer": "C",
+            "explanation": "The research notes state that the actual capital city of Russia is Moscow. Bangalore, Delhi, and Chennai are major cities located within India."
+        },
+        {
+            "question": "Which of the following cities is the capital of India?",
+            "options": [
+                "A. Mumbai",
+                "B. New Delhi",
+                "C. Bangalore",
+                "D. Chennai"
+            ],
+            "answer": "B",
+            "explanation": "According to the research notes, Delhi (specifically New Delhi) is the capital city of India."
+        },
+        {
+            "question": "Bangalore is the capital of which Indian state?",
+            "options": [
+                "A. Tamil Nadu",
+                "B. Maharashtra",
+                "C. Karnataka",
+                "D. Uttar Pradesh"
+            ],
+            "answer": "C",
+            "explanation": "The research notes indicate that Bangalore is the capital of the Indian state of Karnataka."
+        }
+    ],
+    "solutions": [
+        {
+            "chosen_answer": "C",
+            "reason": "The question asks for the capital city of Russia. The explanation explicitly states that 'the actual capital city of Russia is Moscow'. Moscow is listed as option C."
+        },
+        {
+            "chosen_answer": "B",
+            "reason": "The provided MCQ explicitly states that 'B. New Delhi' is the capital of India and the correct answer, further supported by the explanation 'According to the research notes, Delhi (specifically New Delhi) is the capital city of India.'"
+        },
+        {
+            "chosen_answer": "C",
+            "reason": "The provided MCQ states that Bangalore is the capital of Karnataka, and option C corresponds to Karnataka. The explanation also confirms this fact."
+        }
+    ],
+    "validations": [
+        {
+            "valid": true,
+            "feedback": ""
+        },
+        {
+            "valid": true,
+            "feedback": ""
+        },
+        {
+            "valid": true,
+            "feedback": ""
+        }
+    ]
+}

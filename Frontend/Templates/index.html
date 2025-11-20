@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HydraHacks MCQ Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Multi-Agent MCQ Generator</h1>
+
+    <form method="POST">
+        <input type="text" name="topic" placeholder="Enter topic (e.g., Photosynthesis)" required>
+        <button type="submit">Generate MCQs</button>
+    </form>
+
+    {% if topic %}
+        <h2>Topic: {{ topic }}</h2>
+
+        <h3>Research Notes</h3>
+        <pre>{{ research }}</pre>
+
+        <h3>Generated MCQs</h3>
+
+        {% for mcq in mcqs %}
+        <div class="mcq-box">
+            <p><strong>{{ mcq.question }}</strong></p>
+
+            <form>
+                {% for opt in mcq.options %}
+                    <label>
+                        <input type="radio" name="q{{ loop.index }}" value="{{ opt }}">
+                        {{ opt }}
+                    </label><br>
+                {% endfor %}
+            </form>
+
+            <details>
+                <summary>Show Answer</summary>
+                <p><strong>Answer:</strong> {{ mcq.answer }}</p>
+                <p>{{ mcq.explanation }}</p>
+            </details>
+
+        </div>
+        {% endfor %}
+
+    {% endif %}
+
+</div>
+
+</body>
+</html>
