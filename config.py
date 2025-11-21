@@ -1,3 +1,3 @@
-GEMINI_API_KEY="AIzaSyCXIl0t4qpkY3qDIU5w6ddOYjBmbb-T29Y"
+GEMINI_API_KEY="Your API Key"
 MODEL="gemini-2.5-flash"
 MAX_RETRIES=3
